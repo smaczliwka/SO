@@ -23,6 +23,7 @@ Program powinien sprawdzać poprawność parametrów wywołania i danych wejści
 Rozwiązanie będzie kompilowane poleceniami:
 
 nasm -f elf64 -w+all -w+error -o diakrytynizator.o diakrytynizator.asm
+
 ld --fatal-warnings -o diakrytynizator diakrytynizator.o
 
 Przykłady użycia:
